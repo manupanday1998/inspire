@@ -1,0 +1,114 @@
+*{
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+}
+
+#navbar{
+	border-radius: 0;
+	margin-bottom: 0px;
+	background-color: #262626;
+	border-bottom: 0;}
+
+#particles-js{
+	height: 50.5em;
+	background: #262626;
+
+}
+
+#typed{
+	position: absolute;
+	top: 9em;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-size: 40px;
+//	text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.50);
+}
+
+/* =================================== css for quotes start here =================================== */
+
+#slideshow {
+	/*margin: 80px auto;*/
+	position: relative;
+	height: 10em;
+	padding: 0;
+
+	font-size: 2em;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#slideshow > div {
+	position: absolute;
+	/*top: 10px;
+	left: 10px;
+	right: 10px;
+	bottom: 10px;*/
+	text-align: center;
+	width: 100%;
+	margin:0%;
+	/*height: 5em;*/
+	padding: 2em;
+	/*font-size: 1.5em;*/
+}
+#animejs{
+	height: 100px;
+
+}
+#machineLearning{
+	position: absolute;
+	left: 15%;
+	text-align: center;
+	top: 28%;
+
+}
+#machineLearning>h1{
+	padding-top: auto;
+	padding-bottom: auto;
+	font-size: 100px;
+}
+/* =================================== css for flip animator boxes start here =================================== */
+
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	height: 300px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
