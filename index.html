@@ -62,11 +62,11 @@
 				<div class="col-sm-6">
 				</div>
 			</div> -->
-			<div class="row align-middle" style="padding-top: 20% ;padding-bottom: 20%; padding-left:10%" >
+			<div class="row align-middle" id="animejs">
 				<div class="col-sm-12">
 					<div id="lineDrawing">
-						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 50" style="enable-background:new 0 0 612 792;" xml:space="preserve">
-							<g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="1" class="lines">
+						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 50" style="enable-background:new 0 0 612 792; stroke:white;" xml:space="preserve">
+							<g fill="none" fill-rule="evenodd" stroke="white" stroke-width="1" class="lines">
 								<path  stroke-dasharray="441.1739501953125" style="stroke-dashoffset: 441.174px;"id="XMLID_8_" class="st1" d="M18.5,9.3H14v12.2h-3.6V9.3H6V6.5h12.5V9.3z"/>
 								<path  stroke-dasharray="441.1739501953125" style="stroke-dashoffset: 441.174px;"id="XMLID_10_" class="st1" d="M17.3,15.8c0-1.1,0.2-2.1,0.6-3c0.4-0.9,1-1.5,1.9-2s1.8-0.7,2.8-0.7c1.7,0,3,0.5,3.9,1.5
 									c1,1,1.4,2.4,1.4,4.2V16c0,1.7-0.5,3.1-1.4,4.1c-1,1-2.3,1.5-3.9,1.5c-1.6,0-2.8-0.5-3.8-1.4s-1.5-2.2-1.5-3.9L17.3,15.8z M20.8,16
@@ -209,13 +209,13 @@
 		</div>
 
 		<div id="slideshow">
-			<div>
+			<div class="slideShowDiv">
 				<em>‘‘To be inspired is great, but to inspire is incredible’’</em>
 			</div>
-			<div >
+			<div class="slideShowDiv">
 				<em>‘‘We believe world is a beautiful place to live and prosper, due to infinite growth potential for every ‘aspiring’ individual, institution, organisation’’</em>
 			</div>
-			<div>
+			<div class="slideShowDiv">
 				<em>‘‘We trust to convert ‘impossible’ to ‘i-m-possible’ and deliver with passion to help you achieve your dream through right attitude that’s fuelled by right thinking, aggressive approach with compelling actions’’</em>
 			</div>
 		</div>
@@ -266,13 +266,13 @@
 			</div>
 		</div>
 
-		<div id="particles-js">
+		<div>
+			<div id="particles-js"></div>
 			<div id="machineLearning">
-				<h1>Machine learning</h1>
-				<h1>Artificial Intelligence</h1>
+					<h1>Machine learning</h1>
+					<h1>Artificial Intelligence</h1>
 			</div>
 		</div>
-
 		<div class="container-fluid">
 
 			<div id="f1_container" class="col-md-4">
@@ -319,17 +319,17 @@
 				<p class="footer-links">
 					<a href="index">Home</a>
 				</p>
-				<p class="footer-company-name">Inspire &copy; 2018</p>
+				<p class="footer-company-name">Quze &copy; 2018</p>
 				<div class="footer-icons">
 					<a href="#"><i class="fab fa-facebook"><img src="images/facebook.png"></i></a>
 					<a href="#"><i class="fab fa-twitter"><img src="images/twitter.png"></i></a>
-					<a href="#"><i class="fab fa-instagram"><img src="images/instagram.png" > </i></a>
-					<a href="#"><i class="fab fa-snapchat"><img src="images/snapchat.png" style="height:30px ;width=30px"></i></a>
+					<a href="#"><i class="fab fa-instagram"><img src="images/instagram.png"> </i></a>
+					<a href="#"><i class="fab fa-snapchat"><img src="images/snapchat.png" style="height:30px;width=30px;"></i></a>
 				</div>
 			</div>
 			<div class="footer-right">
 				<p>Contact Us</p>
-				<form action="" method="POST" accept-charset="UTF-8">
+				<form action="https://formkeep.com/f/be91b4aa58bd" method="POST" accept-charset="UTF-8">
 					<input type="text" name="Name" placeholder="Name" />
 					<input type="text" name="email" placeholder="Email" />
 					<textarea name="message" placeholder="Message"></textarea>
@@ -351,6 +351,7 @@
 				duration: 500,
 				delay: function(el, i) { return i *100 },
 				direction: 'alternate',
+				loop: true,
 			});
 
 		</script>

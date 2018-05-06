@@ -14,17 +14,19 @@
 #particles-js{
 	height: 50.5em;
 	background: #262626;
-	padding-top: 5em;
-	padding-bottom: 5em;
+	/*padding-top: 5em;
+	padding-bottom: 5em;*/
 
 }
 
 /* ===================== machine learning over top of particle js ===================== */
 #machineLearning{
-	position: relative;
-	/*left: 15%;*/
+	position: absolute;
+	left: 50%;
+	top: 50%;
 	text-align: center;
-	top: 42%;
+	margin-top: -79.40px;
+	margin-left: -226.6px;
 }
 #machineLearning>h1{
 	color: white;
@@ -51,12 +53,13 @@
 
 #slideshow {
 	/*margin: 80px auto;*/
-	position: relative;
-	height: 9em;
-	padding: 0;
+	/*position: relative;*/
+	/*height: 10em;*/
+	padding: 1.2em 0 3em 0;
 	font-size: 1.8em;
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 	font-family: 'Lora', serif;
+	background-color: #EEEEEE;
 }
 
 #slideshow > div {
@@ -69,14 +72,23 @@
 	width: 100%;
 	margin:0%;
 	/*height: 5em;*/
-	padding: 2em;
+	/*padding: 2em;*/
 	/*font-size: 1.5em;*/
 }
 
 /* ===================== the writing animation ===================== */
 #animejs{
-	height: 100px;
+	padding-top: 20%;
+	padding-bottom: 20%;
+	padding-left:10%;
+	background-color: #03A9F4;
 }
+@media(max-width: 768px){
+	#animejs{
+		height: 600px;
+	}
+}
+
 
 /* =================================== css for flip animator boxes start here =================================== */
 
