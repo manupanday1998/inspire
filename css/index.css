@@ -12,7 +12,7 @@
 
 /* ================== particle js animation =================== */
 #particles-js{
-	height: 50.5em;
+	height: 48em;
 	background: #262626;
 	/*padding-top: 5em;
 	padding-bottom: 5em;*/
@@ -173,11 +173,19 @@
 
 /* ============== why us =========================== */
 
-.whyus{
+.whyUs{
 	margin-bottom: 1em;
 	padding-top: 2em;
 	padding-bottom: 2em;
 }
+.whyUsParagraph{
+	font-size: 1.5em;
+}
+
+/* ================= Testimonials===================== */
+.testimonials{
+}
+
 
 /* ===================== media queries ======================= */
 
