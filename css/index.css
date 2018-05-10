@@ -6,7 +6,7 @@
 #navbar{
 	border-radius: 0;
 	margin-bottom: 0px;
-	background-color: #262626;
+
 	border-bottom: 0;
 }
 
@@ -181,6 +181,12 @@
 .whyUsParagraph{
 	font-size: 1.5em;
 }
+.orangeh:hover{
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color : chocolate;
+
+}
 
 /* ================= Testimonials===================== */
 .testimonials{
@@ -196,6 +202,7 @@
 	.iconography{
 		left: 38%;
 	}
+
 }
 @media (min-width: 600px) and (max-width: 768px) {
 	.iconography{
