@@ -1,19 +1,23 @@
 *{
 	font-family: 'Roboto', sans-serif;
 	position: relative;
-}
 
+}
+body{
+	background-color: #F7EBE8	;
+}
 #navbar{
 	border-radius: 0;
 	margin-bottom: 0px;
 
 	border-bottom: 0;
+	background-color: #444140;
 }
 
 /* ================== particle js animation =================== */
 #particles-js{
 	height: 48em;
-	background: #262626;
+	background: #39393A;
 	/*padding-top: 5em;
 	padding-bottom: 5em;*/
 
@@ -99,7 +103,7 @@
 	height: 320px;
 	/*padding: 1.5em 0 1.5em 0;*/
 	z-index: 1;
-	perspective: 1000;
+	perspective: 1000em;
 }
 #f1_card {
 	width: 100%;
