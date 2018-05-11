@@ -9,11 +9,13 @@ body{
 #navbar{
 	border-radius: 0;
 	margin-bottom: 0px;
-	background-color: #444140;
+	/*background-color: #444140;*/
 	border-bottom-width: 10px;
 	border-bottom-style: solid;
-
 	border-image:   linear-gradient(to right, grey 25%, yellow 25%, yellow 50%,red 50%, red 75%, teal 75%) 5;
+}
+#navbar li a{
+	color: #1E88E5;
 }
 
 /* ================== particle js animation =================== */
