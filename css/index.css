@@ -17,6 +17,9 @@ body{
 #navbar li a{
 	color: #1E88E5;
 }
+#navbar li:hover{
+	background-color: #e5e5e5;
+}
 
 /* ================== particle js animation =================== */
 #particles-js{
