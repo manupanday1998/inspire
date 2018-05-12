@@ -58,7 +58,7 @@ body{
 }
 
 /* =================== typed animation =================== */
-#typed{
+/*#typed{
 	position: absolute;
 	top: 9em;
 	transform: translateY(-50%);
@@ -68,8 +68,8 @@ body{
 	padding: 0;
 	color: white;
 	font-size: 40px;
-	/*text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.50);*/
-}
+	/*text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.50);
+}*/
 
 /* =================================== css for quotes start here =================================== */
 
@@ -185,12 +185,26 @@ body{
 /* ===================== Who we are and Our Teams ================== */
 .divWhoTeam{
 	margin-bottom: 1em;
-	height: 100%;
-	/*background-color: #e0e0e0;*/
 }
 .paragraphsWhoTeam{
 	margin-top: 2em;
 	font-size: 1.3em;
+}
+#whoRow{
+	height: 30em;
+	background-color: #F7F7F7;
+	padding-left: 4em;
+	padding-right: 2em;
+	font-size: 1.2em;
+}
+#teamRow{
+	height: 30em;
+	background-color: #EEEEEE;
+	padding-left: 4em;
+	padding-right: 2em;
+	font-size: 1.2em;
+}
+#containerWhoTeam{
 }
 
 /* ============== why us =========================== */
