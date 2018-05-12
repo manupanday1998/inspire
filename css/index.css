@@ -6,6 +6,7 @@
 body{
 	background-color: #F7EBE8	;
 }
+/* ============= navbar ================== */
 #navbar{
 	border-radius: 0;
 	margin-bottom: 0px;
@@ -21,6 +22,16 @@ body{
 	background-color: #e5e5e5;
 }
 
+/* ================== images slideshow ==================*/
+
+#carousel-example-generic{
+	margin-top: 70px;
+}
+.carousel-information{
+	color: black;
+}
+#carousel-informationOne, #carousel-informationTwo,#carousel-informationThree,#carousel-informationFour,#carousel-informationFive
+{}
 /* ================== particle js animation =================== */
 #particles-js{
 	height: 48em;
@@ -213,25 +224,74 @@ body{
 	.iconography{
 		left: 38%;
 	}
-
+	#carousel-example-generic{
+		height: 49em;
+		margin-top: 55px;
+	}	
+	.carousel-information{
+		margin-top: 18em;
+		font-size: 15px;
+	}
+	#carousel-informationFive{
+		margin-top: 18em;
+	}
 }
 @media (min-width: 600px) and (max-width: 768px) {
 	.iconography{
 		left: 43%;
+	}
+	#carousel-example-generic{
+		height: 49em;
+		margin-top: 55px;
+	}
+	.carousel-information{
+		margin-top: 18em;
+		font-size: 15px;
+	}
+	#carousel-informationFive{
+		margin-top: 18em;
 	}
 }
 @media (min-width: 768px) and (max-width: 992px) {
 	.iconography{
 		left: 44%;
 	}
+	#carousel-example-generic{
+		height: 48em;
+	}
+	.carousel-information{
+		margin-top: 18em;
+		font-size: 15px;
+	}
+	#carousel-informationFive{
+		margin-top: 18em;
+	}
 }
 @media (min-width: 992px) and (max-width: 1200px) { 
 	.iconography{
 		left: 40%;
 	}
+	#carousel-example-generic{
+		height: 48em;
+	}
+	.carousel-information{
+		margin-top: 20em;
+	}
+	#carousel-informationFive{
+		margin-top: 18em;
+	}
 }
 @media (min-width: 1200px){
 	.iconography{
 		left: 43%;
+	}
+	#carousel-example-generic{
+		height: 49em;
+	}
+	.carousel-information{
+		margin-top: 22em;
+	}
+	#carousel-informationFive{
+		margin-top: 18em;
 	}
 }
