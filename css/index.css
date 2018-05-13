@@ -227,7 +227,10 @@ body{
 	padding-right: 2em;
 	font-size: 1.2em;
 }
-
+#imageTeam{
+	height: 250px;
+	width: 443px;
+}
 #containerWhoTeam{
 }
 
