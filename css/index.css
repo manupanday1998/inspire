@@ -276,9 +276,13 @@ body{
 	.carousel-information{
 		margin-top: 18em;
 		font-size: 15px;
+		height: 49em;
 	}
 	#carousel-informationFive{
-		margin-top: 18em;
+		margin-top: 12em;
+	}
+	#carousel-informationThree{
+		margin-top: 14em;
 	}
 }
 @media (min-width: 600px) and (max-width: 768px) {
@@ -292,6 +296,7 @@ body{
 	.carousel-information{
 		margin-top: 18em;
 		font-size: 15px;
+		height: 49em;
 	}
 	#carousel-informationFive{
 		margin-top: 18em;
@@ -307,9 +312,11 @@ body{
 	.carousel-information{
 		margin-top: 18em;
 		font-size: 15px;
+		height: 48em;
 	}
 	#carousel-informationFive{
 		margin-top: 18em;
+		height: 48em;
 	}
 }
 @media (min-width: 992px) and (max-width: 1200px) { 
@@ -321,6 +328,7 @@ body{
 	}
 	.carousel-information{
 		margin-top: 20em;
+		height: 48em;
 	}
 	#carousel-informationFive{
 		margin-top: 18em;
@@ -335,6 +343,7 @@ body{
 	}
 	.carousel-information{
 		margin-top: 22em;
+		height: 49em;
 	}
 	#carousel-informationFive{
 		margin-top: 18em;
