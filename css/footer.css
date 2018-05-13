@@ -1,5 +1,5 @@
 .footer-distributed{
-	background-color: #292c2f;
+	background-color: #2b303a;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
@@ -20,13 +20,13 @@
 /* The company logo */
 
 .footer-distributed h3{
-	color:  #ffffff;
+	color:  #d64933;
 	font: normal 36px 'Nunito', sans-serif;
 	margin: 0 0 10px;
 }
 
 .footer-distributed h3 span{
-	color:  #5383d3;
+	color:  #bac1b8;
 }
 
 /* Footer links */
@@ -45,7 +45,7 @@
 }
 
 .footer-distributed .footer-company-name{
-	color:  #8f9296;
+	color:  #bac1b8;
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0;

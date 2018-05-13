@@ -1,10 +1,10 @@
 *{
 	font-family: 'Roboto', sans-serif;
 	position: relative;
-
+	color: #2b303a;
 }
 body{
-/*	background-color: #F7EBE8;*/
+  background-color: #bac1b8;
 }
 /* ============= navbar ================== */
 #navbar{
@@ -13,13 +13,15 @@ body{
 	/*background-color: #444140;*/
 	border-bottom-width: 10px;
 	border-bottom-style: solid;
-	border-image:   linear-gradient(to right, grey 25%, yellow 25%, yellow 50%,red 50%, red 75%, teal 75%) 5;
+	border-image:   linear-gradient(to right, #58a4b0 25%, #0c7c59 25%, #0c7c59 50%,#d64933 50%, #d64933 75%, #2b303a 75%) 5;
 }
 #navbar li a{
-	color: #1E88E5;
+	color: #d64933;
+	background-color: #2b303a;
+	font-size: 130%;
 }
 #navbar li:hover{
-	background-color: #e5e5e5;
+	background-color: #2b303a;
 }
 
 /* ================== images slideshow ==================*/
@@ -36,7 +38,7 @@ body{
 /* ================== particle js animation =================== */
 #particles-js{
 	height: 48em;
-	background: #39393A;
+	background: #bac1b8;
 	/*padding-top: 5em;
 	padding-bottom: 5em;*/
 
@@ -82,7 +84,7 @@ body{
 	font-size: 1.8em;
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 	font-family: 'Lora', serif;
-	background-color: #EEEEEE;
+	background-color: #bac1b8;
 }
 
 #slideshow > div {
@@ -125,6 +127,7 @@ body{
 	perspective: 1000em;
 }
 #f1_card {
+	color: #1f2022;
 	width: 100%;
 	height: 100%;
 	transform-style: preserve-3d;
@@ -139,11 +142,12 @@ body{
 	/*box-shadow: -5px 5px 5px #aaa;*/
 }
 .face {
+
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	backface-visibility: hidden;
-	background-color: #42A5F5; 
+	background-color: #58a4b0;
 }
 .face.back {
 	display: block;
@@ -152,7 +156,7 @@ body{
 	padding: 10px;
 	color: black;
 	text-align: center;
-	background-color: #eee;
+	background-color: #58a4b0;
 }
 .placeHolderImages{
 	height: 281px;
@@ -187,7 +191,7 @@ body{
 .flipHeaders{
 	font-size: 1.5em;
 	margin-top: 9.5em;
-	color: white;
+	color: 	#1f2022;;
 }
 
 /* ====================== Jumbotron =============== */
@@ -238,6 +242,25 @@ body{
 	padding-bottom: 5em;
 	
 }
+.headings{
+	font-family: 'roboto slab';
+	font-size: 5em;
+	color: #0c7c59;
+	border-bottom: #d64933;
+	border-bottom-style: solid;
+	border-bottom-width: .08em;
+	border-radius: 5px;
+	font-weight: bolder;
+}
+.btn{
+	background-color: #2b303a;
+	color: #d64933;
+	border-style: none;
+}
+.btn:hover{
+	background-color: #d64933;
+	color: #2b303a;
+}
 
 /* ============== why us =========================== */
 
@@ -252,8 +275,8 @@ body{
 .orangeh:hover{
     border-top-style: solid;
     border-top-width: 3px;
-    border-top-color : chocolate;
-
+    border-top-color : #d64933;
+	background-color: #2b303a;
 }
 
 /* ================= Testimonials===================== */
