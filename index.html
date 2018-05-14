@@ -132,8 +132,8 @@
 	<!-- who we are -->
 	<div class="container" id="containerWhoTeam">
 		<div class="row" >
-			<div class="col-md-offset-4 col-md-5">
-				<h1 class="text-center headings">Who are we?</h1>
+			<div class="col-md-offset-4 col-md-5" >
+				<h1 class="text-center headings" id="WAWheading">Who are we?</h1>
 			</div>
 		</div>
 		<div class="row">
@@ -152,11 +152,11 @@
 	</div>
 
 	<!-- the team -->
-	<div class="container">
+	<div class="container" id="containerOurTeam">
 		<hr />
 		<div class="row">
 			<div class="col-md-offset-4 col-md-5">
-				<h1 class="text-center headings">Our Teams</h1>
+				<h1 class="text-center headings" id="OTheading">Our Teams</h1>
 			</div>
 		</div>
 			<div class="row">
@@ -266,11 +266,11 @@
 
 
 	<!-- Flip boxes -->
-	<div class="container">
+	<div class="container" id="containerOurMotives">
 		<hr />
 		<div class="row">
 			<div class="col-md-offset-4 col-md-5">
-				<h1 class="text-center headings">Our Motives</h1>
+				<h1 class="text-center headings" id="OMheading">Our Motives</h1>
 			</div>
 		</div>
 		<div id="f1_container" class="col-md-4">
@@ -334,11 +334,11 @@
 	</div>
 
 	<!-- why us section --> 
-	<div class="container">
+	<div class="container" id="containerWU">
 		<div class="whyUs">
 			<div class="row">
 				<div class="col-md-offset-4 col-md-5">
-					<h1 class="text-center headings">Why us?</h1>
+					<h1 class="text-center headings" id="WUheading">Why us?</h1>
 
 				</div>
 			</div>
@@ -352,12 +352,10 @@
 	</div>
 
 	<!-- testimonials -->
-	<div class="container" style="margin-bottom: 2em;">
-		<hr />
-		<div class="testimonials">
+	<div class="container" style="margin-bottom: 2em;" id="Tcontainer">
 			<div class="row">
 				<div class="col-md-offset-4 col-md-5">
-					<h1 class="text-center headings">Testimonials</h1>
+					<h1 class="text-center headings" id="Theading">Testimonials</h1>
 				</div>
 			</div>
 			<div class="row">
@@ -372,7 +370,6 @@
 			</div>
 			</div>
 		</div>
-	</div>
 
 	<!-- footer -->
 	<footer class="footer-distributed" style="color: #f5f5f5;">
@@ -464,6 +461,83 @@
 	<script src="js/particle/particles.js"></script>
 	<script src="js/particle/app.js"></script>
 	<script src="js/index.js"></script>
+	<script>
+        var element_position1 = $('#containerWhoTeam').offset().top;
+        var count1=false;
+        if(count1==false) {
+            $(window).on('scroll', function () {
+                var y_scroll_pos1 = window.pageYOffset;
+                var scroll_pos_test1 = element_position1-200;
+
+                if (y_scroll_pos1 > scroll_pos_test1) {
+                    console.log('manusdas');
+                    $("#WAWheading").css("font-size", "5em");
+                    $("#WAWheading").css("border-bottom-width", "0.08em");
+                    count1=true;
+                }
+            });
+        }
+        var element_position2 = $('#containerOurTeam').offset().top;
+        var count2=false;
+        if(count2==false) {
+            $(window).on('scroll', function () {
+                var y_scroll_pos2 = window.pageYOffset;
+                var scroll_pos_test2 = element_position2-200;
+
+                if (y_scroll_pos2 > scroll_pos_test2) {
+                    console.log('manusdas');
+                    $("#OTheading").css("font-size", "5em");
+                    $("#OTheading").css("border-bottom-width", "0.08em");
+                    count2=true;
+                }
+            });
+        }
+        var element_position3 = $('#containerOurMotives').offset().top;
+        var count3=false;
+        if(count3==false) {
+            $(window).on('scroll', function () {
+                var y_scroll_pos3 = window.pageYOffset;
+                var scroll_pos_test3 = element_position3-200;
+
+                if (y_scroll_pos3 > scroll_pos_test3) {
+                    console.log('manusdas');
+                    $("#OMheading").css("font-size", "5em");
+                    $("#OMheading").css("border-bottom-width", "0.08em");
+                    count3=true;
+                }
+            });
+        }
+        var element_position4 = $('#containerWU').offset().top;
+        var count4=false;
+        if(count4==false) {
+            $(window).on('scroll', function () {
+                var y_scroll_pos4 = window.pageYOffset;
+                var scroll_pos_test4 = element_position4-200;
+
+                if (y_scroll_pos4 > scroll_pos_test4) {
+                    console.log('manusdas');
+                    $("#WUheading").css("font-size", "5em");
+                    $("#WUheading").css("border-bottom-width", "0.08em");
+                    count4=true;
+                }
+            });
+        }
+        var element_position5 = $('#Tcontainer').offset().top;
+        var count5=false;
+        if(count5==false) {
+            $(window).on('scroll', function () {
+                var y_scroll_pos5 = window.pageYOffset;
+                var scroll_pos_test5 = element_position5-200;
+
+                if (y_scroll_pos5 > scroll_pos_test5) {
+                    console.log('manusdas');
+                    $("#Theading").css("font-size", "5em");
+                    $("#Theading").css("border-bottom-width", "0.08em");
+                    count5=true;
+                }
+            });
+        }
+	</script>
 
 </body>
 

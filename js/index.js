@@ -20,21 +20,8 @@ setInterval(function() {
 }, 3000);
 $('.carousel').carousel({
     interval: 2000
-});
+})
 
 
 
-$(function() {
-    var oTop = $('.headings').offset().top - window.innerHeight;
-    $(window).scroll(function(){
 
-        var pTop = $('body').scrollTop();
-        console.log( pTop + ' - ' + oTop );   //just for your debugging
-        if( pTop > oTop ){
-            start_count();
-        }
-    });
-});
-function start_count(){
-    alert('manupandey');
-}

@@ -244,13 +244,43 @@ body{
 }
 .headings{
 	font-family: 'roboto slab';
-	font-size: 5em;
+	font-size: 4em;
 	color: #0c7c59;
-	border-bottom: #d64933;
-	border-bottom-style: solid;
-	border-bottom-width: .08em;
-	border-radius: 5px;
+
 	font-weight: bolder;
+	transition: font-size 2s;
+
+}
+
+#WAWheading{
+	border-bottom-style: solid;
+	border-bottom-width: 0em;
+	border-color: #d64933;
+	transition: font-size 2s, border-bottom-width 2s;
+}
+#OTheading{
+	border-bottom-style: solid;
+	border-bottom-width: 0em;
+	border-color: #d64933;
+	transition: font-size 2s, border-bottom-width 2s;
+}
+#OMheading{
+	border-bottom-style: solid;
+	border-bottom-width: 0em;
+	border-color: #d64933;
+	transition: font-size 2s, border-bottom-width 2s;
+}
+#WUheading{
+	border-bottom-style: solid;
+	border-bottom-width: 0em;
+	border-color: #d64933;
+	transition: font-size 2s, border-bottom-width 2s;
+}
+#Theading{
+	border-bottom-style: solid;
+	border-bottom-width: 0em;
+	border-color: #d64933;
+	transition: font-size 2s, border-bottom-width 2s;
 }
 .btn{
 	background-color: #2b303a;
@@ -280,8 +310,7 @@ body{
 }
 
 /* ================= Testimonials===================== */
-.testimonials{
-}
+
 
 
 /* ===================== media queries ======================= */
