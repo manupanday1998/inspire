@@ -1,7 +1,7 @@
 *{
 	font-family: 'Roboto', sans-serif;
 	position: relative;
-	color: #2b303a;
+
 }
 body{
   background-color: #bac1b8;
@@ -13,15 +13,14 @@ body{
 	/*background-color: #444140;*/
 	border-bottom-width: 10px;
 	border-bottom-style: solid;
-	border-image:   linear-gradient(to right, #58a4b0 25%, #0c7c59 25%, #0c7c59 50%,#d64933 50%, #d64933 75%, #2b303a 75%) 5;
+	border-image:   linear-gradient(to right, yellow 12%, green 12%, green 29%,darkblue 29%,darkblue 47%,white 47%,white 47%,white 74%,yellow 74%,yellow 88%,brown 88%) 5;
 }
 #navbar li a{
-	color: #d64933;
-	background-color: #2b303a;
-	font-size: 130%;
+
+	font-size: 110%;
 }
 #navbar li:hover{
-	background-color: #2b303a;
+
 }
 
 /* ================== images slideshow ==================*/
@@ -282,15 +281,8 @@ body{
 	border-color: #d64933;
 	transition: font-size 2s, border-bottom-width 2s;
 }
-.btn{
-	background-color: #2b303a;
-	color: #d64933;
-	border-style: none;
-}
-.btn:hover{
-	background-color: #d64933;
-	color: #2b303a;
-}
+
+
 
 /* ============== why us =========================== */
 
@@ -304,9 +296,9 @@ body{
 }
 .orangeh:hover{
     border-top-style: solid;
-    border-top-width: 3px;
+    border-top-width: 4px;
     border-top-color : #d64933;
-	background-color: #2b303a;
+
 }
 
 /* ================= Testimonials===================== */
