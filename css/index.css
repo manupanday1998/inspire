@@ -26,7 +26,7 @@ body{
 /* ================== images slideshow ==================*/
 
 #carousel-example-generic{
-	margin-top: 70px;
+
 }
 .carousel-information{
 	color: black;
@@ -301,6 +301,12 @@ body{
 
 }
 
+.item {
+	display: none;
+	position: relative;
+.transition(3s ease-in-out left);
+}
+
 /* ================= Testimonials===================== */
 
 
@@ -315,20 +321,20 @@ body{
 		left: 38%;
 	}
 	#carousel-example-generic{
-		height: 49em;
+		height: 35em;
 		margin-top: 55px;
 	}	
 	.carousel-information{
-		margin-top: 18em;
+		margin-top: 11em;
 		font-size: 15px;
-		height: 27em;
+		height: 24em;
 	}
 	#carousel-informationFive{
-		margin-top: 13em;
-		height: 32em;
+		margin-top: 12em;
+		height: 33em;
 	}
 	#carousel-informationThree{
-		margin-top: 14em;
+		margin-top: 11em;
 		height: 31em;
 	}
 	.imageTestimonials{
@@ -341,16 +347,16 @@ body{
 		left: 43%;
 	}
 	#carousel-example-generic{
-		height: 49em;
+		height: 35em;
 		margin-top: 55px;
 	}
 	.carousel-information{
-		margin-top: 18em;
+		margin-top: 11em;
 		font-size: 15px;
-		height: 26em;
+		height: 23em;
 	}
 	#carousel-informationFive{
-		margin-top: 18em;
+		margin-top: 12em;
 	}
 	.imageTestimonials{
 		height: 120px;
@@ -362,15 +368,15 @@ body{
 		left: 44%;
 	}
 	#carousel-example-generic{
-		height: 48em;
+		height: 35em;
 	}
 	.carousel-information{
-		margin-top: 18em;
+		margin-top: 11em;
 		font-size: 15px;
-		height: 25.95em;
+		height: 23em;
 	}
 	#carousel-informationFive{
-		margin-top: 18em;
+		margin-top: 12em;
 		height: 48em;
 	}
 	.imageTestimonials{
@@ -383,14 +389,14 @@ body{
 		left: 40%;
 	}
 	#carousel-example-generic{
-		height: 48em;
+		height: 35em;
 	}
 	.carousel-information{
-		margin-top: 20em;
-		height: 25.95em;
+		margin-top: 11em;
+		height: 23em;
 	}
 	#carousel-informationFive{
-		margin-top: 18em;
+		margin-top: 12em;
 	}
 	.imageTestimonials{
 		height: 120px;
@@ -402,14 +408,14 @@ body{
 		left: 43%;
 	}
 	#carousel-example-generic{
-		height: 49em;
+		height: 35em;
 	}
 	.carousel-information{
-		margin-top: 22em;
-		height: 25.95em;
+		margin-top: 11em;
+		height: 23em;
 	}
 	#carousel-informationFive{
-		margin-top: 22em;
+		margin-top: 12em;
 	}
 	.imageTestimonials{
 		height: 120px;

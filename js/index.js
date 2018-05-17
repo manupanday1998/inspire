@@ -18,9 +18,7 @@ setInterval(function() {
     .end()
     .appendTo('#slideshow');
 }, 3000);
-$('.carousel').carousel({
-    interval: 2000
-})
+
 
 
 
