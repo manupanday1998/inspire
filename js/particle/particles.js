@@ -27,13 +27,13 @@ var pJS = function(tag_id, params){
         }
       },
       color: {
-        value: '#58a4b0'
+        value: '#0077c0'
       },
       shape: {
         type: 'circle',
         stroke: {
           width: 0,
-          color: '#58a4b0'
+          color: '#000000'
         },
         polygon: {
           nb_sides: 5
@@ -67,7 +67,7 @@ var pJS = function(tag_id, params){
       line_linked: {
         enable: true,
         distance: 100,
-        color: '#58a4b0',
+        color: '#0077c0',
         opacity: 1,
         width: 1
       },

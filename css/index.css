@@ -4,22 +4,22 @@
 
 }
 body{
-  background-color: #bac1b8;
+  background-color: #fafafa;
 }
 /* ============= navbar ================== */
 #navbar{
 	border-radius: 0;
 	margin-bottom: 0px;
-	/*background-color: #444140;*/
 	border-bottom-width: 10px;
 	border-bottom-style: solid;
 	border-image:   linear-gradient(to right, yellow 12%, green 12%, green 29%,darkblue 29%,darkblue 47%,white 47%,white 47%,white 74%,yellow 74%,yellow 88%,brown 88%) 5;
 }
 #navbar li a{
-
+	color:#606470;
 	font-size: 110%;
 }
-#navbar li:hover{
+#navbar li a:hover{
+	color: #f7f7f7 !important;
 
 }
 
@@ -37,7 +37,7 @@ body{
 /* ================== particle js animation =================== */
 #particles-js{
 	height: 48em;
-	background: #bac1b8;
+	background-color: #f7f7f7;
 	/*padding-top: 5em;
 	padding-bottom: 5em;*/
 
@@ -53,7 +53,7 @@ body{
 	margin-left: -226.6px;
 }
 #machineLearning>h1{
-	color: white;
+	color: #1d242b;
 	padding-top: auto;
 	padding-bottom: auto;
 	font-size: 50px;
@@ -146,7 +146,7 @@ body{
 	width: 100%;
 	height: 100%;
 	backface-visibility: hidden;
-	background-color: #58a4b0;
+	background-color: #0077c0;
 }
 .face.back {
 	display: block;
@@ -155,7 +155,7 @@ body{
 	padding: 10px;
 	color: black;
 	text-align: center;
-	background-color: #58a4b0;
+	background-color: #0077c0;
 }
 .placeHolderImages{
 	height: 281px;
@@ -192,7 +192,14 @@ body{
 	margin-top: 9.5em;
 	color: 	#1f2022;;
 }
-
+.button-div{
+	padding-left: 4em;
+}
+.btn{
+	color:#1d242b;
+	background-color: #fafafa;
+	border: none;
+}
 /* ====================== Jumbotron =============== */
 
 /*.jumbotron{
@@ -210,13 +217,16 @@ body{
 .container-fluid{
 	background-color: white;
 	color: black;
+
 }
 /* ===================== Who we are and Our Teams ================== */
 
 .paragraphsWhoTeam{
 	margin-top: 4em;
-
-	font-size: 1.4em;
+	font-weight: 200;
+	padding-left:4em;
+	padding-right:4em;
+	font-size: 1em;
 }
 #whoRow{
 	height: 30em;
@@ -233,6 +243,7 @@ body{
 	font-size: 1.2em;
 }
 #imageTeam{
+
 	height: 250px;
 	width: 443px;
 }
@@ -242,48 +253,53 @@ body{
 	
 }
 .headings{
-	font-family: 'roboto slab';
-	font-size: 4em;
-	color: #0c7c59;
+	font-family: 'roboto';
+	font-size: 3em;
+	color: #1d242b;
 
-	font-weight: bolder;
+	font-weight: 300;
 	transition: font-size 2s;
 
 }
-
+#containerWhoTeam>div{
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
 #WAWheading{
 	border-bottom-style: solid;
 	border-bottom-width: 0em;
-	border-color: #d64933;
+	border-color: #0077c0;
 	transition: font-size 2s, border-bottom-width 2s;
 }
 #OTheading{
 	border-bottom-style: solid;
 	border-bottom-width: 0em;
-	border-color: #d64933;
+	border-color: #0077c0;
 	transition: font-size 2s, border-bottom-width 2s;
 }
 #OMheading{
 	border-bottom-style: solid;
 	border-bottom-width: 0em;
-	border-color: #d64933;
+	border-color: #0077c0;
 	transition: font-size 2s, border-bottom-width 2s;
 }
 #WUheading{
 	border-bottom-style: solid;
 	border-bottom-width: 0em;
-	border-color: #d64933;
+	border-color: #0077c0;
 	transition: font-size 2s, border-bottom-width 2s;
 }
 #Theading{
 	border-bottom-style: solid;
 	border-bottom-width: 0em;
-	border-color: #d64933;
+	border-color: #0077c0;
 	transition: font-size 2s, border-bottom-width 2s;
 }
 
 
+.img-responsive{
 
+}
 /* ============== why us =========================== */
 
 .whyUs{
@@ -294,10 +310,14 @@ body{
 .whyUsParagraph{
 	font-size: 1.5em;
 }
+.orangeh{
+	border-top-color:#1d242b;
+	border-top-style: solid;
+	border-top-width: 4px;
+}
 .orangeh:hover{
-    border-top-style: solid;
-    border-top-width: 4px;
-    border-top-color : #d64933;
+
+    border-top-color : #f7f7f7;
 
 }
 
