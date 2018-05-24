@@ -6,7 +6,7 @@
 	loop: true,
 });*/
 
-// slideshow code
+/* ============= quote engine =============== */
 
 $("#slideshow > div:gt(0)").hide();
 
@@ -18,12 +18,6 @@ setInterval(function() {
 	.end()
 	.appendTo('#slideshow');
 }, 3000);
-// var i=1;
-
-// for(i=1; ;i++ ){
-// 	$("#slideshow:nth-child(i%3)").css("display", "block").delay(3000);
-// 	$("#slideshow:nth-child(i%3)").css("display", "none");
-// }
 
 
 /* ============= flip =============== */
@@ -39,4 +33,19 @@ $(document).ready(function(){
 	});
 }); 
 
+/* ============= testimonials =============== */
 
+function firstDivDisplay(){
+	$("#firstTestimonial").css("display", "block");
+}
+function secondDivDisplay(){
+	$("#secondTestimonial").css("display", "block");
+}
+function thirdDivDisplay(){
+	$("#thirdTestimonial").css("display", "block");
+}
+function hideOfTestimonial(){
+	$("#firstTestimonial").css("display", "none");
+	$("#secondTestimonial").css("display", "none");
+	$("#thirdTestimonial").css("display", "none");
+}

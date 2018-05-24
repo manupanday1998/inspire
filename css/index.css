@@ -326,12 +326,18 @@ body{
 .item {
 	display: none;
 	position: relative;
-.transition(3s ease-in-out left);
+	.transition(3s ease-in-out left);
 }
 
 /* ================= Testimonials===================== */
 
-
+#firstTestimonial, #secondTestimonial, #thirdTestimonial{
+	position: absolute;
+	top: 0px;
+	display: none;
+	color: white;
+	background-color: rgba(0,0,0,.65);
+}
 
 /* ===================== media queries ======================= */
 
@@ -359,9 +365,9 @@ body{
 		margin-top: 11em;
 		height: 31em;
 	}
-	.imageTestimonials{
-		height: 100px;
-		width: 100px;
+	.imageTestimonials, #firstTestimonial, #secondTestimonial, #thirdTestimonial{
+		height: 280px;
+		width: 140px;
 	}
 }
 @media (min-width: 600px) and (max-width: 768px) {
@@ -380,9 +386,9 @@ body{
 	#carousel-informationFive{
 		margin-top: 12em;
 	}
-	.imageTestimonials{
-		height: 120px;
-		width: 120px;
+	.imageTestimonials, #firstTestimonial, #secondTestimonial, #thirdTestimonial{
+		height: 300px;
+		width: 173px;
 	}
 }
 @media (min-width: 768px) and (max-width: 992px) {
@@ -401,9 +407,9 @@ body{
 		margin-top: 12em;
 		height: 48em;
 	}
-	.imageTestimonials{
-		height: 120px;
-		width: 120px;
+	.imageTestimonials, #firstTestimonial, #secondTestimonial, #thirdTestimonial{
+		height: 350px;
+		width: 187px;
 	}
 }
 @media (min-width: 992px) and (max-width: 1200px) { 
@@ -420,9 +426,9 @@ body{
 	#carousel-informationFive{
 		margin-top: 12em;
 	}
-	.imageTestimonials{
-		height: 120px;
-		width: 120px;
+	.imageTestimonials, #firstTestimonial, #secondTestimonial, #thirdTestimonial{
+		height: 350px;
+		width: 243px;
 	}
 }
 @media (min-width: 1200px){
@@ -439,8 +445,8 @@ body{
 	#carousel-informationFive{
 		margin-top: 12em;
 	}
-	.imageTestimonials{
-		height: 120px;
-		width: 120px;
+	.imageTestimonials, #firstTestimonial, #secondTestimonial, #thirdTestimonial{
+		height: 400px;
+		width: 293px;
 	}
 }
