@@ -8,6 +8,7 @@ body{
 }
 /* ============= navbar ================== */
 #navbar{
+	padding-left: 0px;
 	border-radius: 0;
 	margin-bottom: 0px;
 	border-bottom-width: 10px;
@@ -15,12 +16,15 @@ body{
 	border-image:   linear-gradient(to right, yellow 12%, green 12%, green 29%,darkblue 29%,darkblue 47%,white 47%,white 47%,white 74%,yellow 74%,yellow 88%,brown 88%) 5;
 }
 #navbar li a{
-	color:#606470;
+	color:white;
 	font-size: 110%;
 }
 #navbar li a:hover{
 	color: #f7f7f7 !important;
 
+}
+.navbar-brand{
+	padding: 0px;
 }
 
 /* ================== images slideshow ==================*/
@@ -82,12 +86,11 @@ body{
 	/*margin: 80px auto;*/
 	/*position: relative;*/
 	/*height: 10em;*/
-	padding: 1.5em 0 1.5em 0;
-	font-size: 1.8em;
+	/*padding: 1.5em 0 1.5em 0;*//* was not commented for the previous version*/
+	font-size: 1.5em;
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 	font-family: 'Lora', serif;
-	background-color: #bac1b8;
-}
+	background-color: #bac1b8;}
 
 #slideshow > div {
 	/*position: absolute;*/
@@ -101,6 +104,21 @@ body{
 	/*height: 5em;*/
 	/*padding: 2em;*/
 	/*font-size: 1.5em;*/
+}
+#slideShowDiv1{
+	position: absolute;
+	top: 35%;
+	margin-top: -15px;
+}
+#slideShowDiv2{
+	position: absolute;
+	top: 32%;
+	margin-top: -15px;
+}
+#slideShowDiv3{
+	position: absolute;
+	top: 18%;
+	margin-top: -15px;
 }
 
 /* ===================== the writing animation ===================== */
@@ -222,6 +240,12 @@ body{
 
 }
 /* ===================== Who we are and Our Teams ================== */
+.btn-whoTeam{
+	border-radius: 0px;
+	font-weight: bold;
+	border: solid black;
+	background-color: white;
+}
 
 .paragraphsWhoTeam{
 	margin-top: 4em;
@@ -369,6 +393,18 @@ body{
 		height: 280px;
 		width: 140px;
 	}
+	#slideshow{
+		height: 8em;
+	}
+	#slideShowDiv1{
+		top: 38%;
+	}
+	#slideShowDiv2{
+		top: 27%;
+	}
+	#slideShowDiv3{
+		top: 11%;
+	}
 }
 @media (min-width: 600px) and (max-width: 768px) {
 	.iconography{
@@ -389,6 +425,9 @@ body{
 	.imageTestimonials, #firstTestimonial, #secondTestimonial, #thirdTestimonial{
 		height: 300px;
 		width: 173px;
+	}
+	#slideshow{
+		height: 6em;
 	}
 }
 @media (min-width: 768px) and (max-width: 992px) {
@@ -411,6 +450,9 @@ body{
 		height: 350px;
 		width: 187px;
 	}
+	#slideshow{
+		height: 6em;
+	}
 }
 @media (min-width: 992px) and (max-width: 1200px) { 
 	.iconography{
@@ -430,6 +472,9 @@ body{
 		height: 350px;
 		width: 243px;
 	}
+	#slideshow{
+		height: 6em;
+	}
 }
 @media (min-width: 1200px){
 	.iconography{
@@ -448,5 +493,8 @@ body{
 	.imageTestimonials, #firstTestimonial, #secondTestimonial, #thirdTestimonial{
 		height: 400px;
 		width: 293px;
+	}
+	#slideshow{
+		height: 5em;
 	}
 }
