@@ -26,7 +26,11 @@ body{
 .navbar-brand{
 	padding: 0px;
 }
-
+#imglogo{
+	height:3em;
+	weigth:9em;
+	margin-top: .3em;
+}
 /* ================== images slideshow ==================*/
 
 #carousel-example-generic{
@@ -120,7 +124,19 @@ body{
 	top: 18%;
 	margin-top: -15px;
 }
-
+.carousel-information{
+	position: absolute;
+	top: 2em;
+	left: 4em;
+	color: #1d242b;
+}
+.sliderimage{
+    overflow: hidden;
+	height: 100%;
+	width: 100%;
+	-webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(50%)  blur(2px) saturate(50%);
+}
 /* ===================== the writing animation ===================== */
 
 /*#animejs{
@@ -185,6 +201,7 @@ body{
 .flipBackParagraphs{
 	font-size: 1.1em;
 }
+
 .BTbox{
 	width: 400px ;
 	height: 250px;
@@ -215,8 +232,9 @@ body{
 }
 .btn{
 	color:#1d242b;
-	background-color: #e5e5e5;
-	border: none;
+	background-color: #f7f7f7 !important;
+	border: none !important;
+	font-weight: normal !important;
 }
 /* ====================== Jumbotron =============== */
 
@@ -244,11 +262,11 @@ body{
 	border-radius: 0px;
 	font-weight: bold;
 	border: solid black;
-	background-color: white;
+	background-color: #f7f7f7;
 }
 
 .paragraphsWhoTeam{
-	margin-top: 4em;
+	margin-top: 2em;
 	font-weight: 200;
 	padding-left:4em;
 	padding-right:4em;
@@ -280,7 +298,7 @@ body{
 }
 .headings{
 	font-family: 'roboto';
-	font-size: 3em;
+	font-size: 4em;
 	color: #1d242b;
 
 	font-weight: 300;
@@ -324,7 +342,7 @@ body{
 
 
 .img-responsive{
-
+	margin-top: 6em;
 }
 /* ============== why us =========================== */
 
@@ -351,6 +369,8 @@ body{
 	display: none;
 	position: relative;
 	.transition(3s ease-in-out left);
+	overflow: hidden !important;
+	height: 40em
 }
 
 /* ================= Testimonials===================== */
@@ -377,12 +397,12 @@ body{
 		margin-top: 55px;
 	}	
 	.carousel-information{
-		margin-top: 11em;
+		margin-top: 6em;
 		font-size: 15px;
 		height: 24em;
 	}
 	#carousel-informationFive{
-		margin-top: 12em;
+		margin-top: 6em;
 		height: 33em;
 	}
 	#carousel-informationThree{
@@ -415,7 +435,7 @@ body{
 		margin-top: 55px;
 	}
 	.carousel-information{
-		margin-top: 11em;
+		margin-top: 6em;
 		font-size: 15px;
 		height: 23em;
 	}
@@ -438,7 +458,7 @@ body{
 		height: 35em;
 	}
 	.carousel-information{
-		margin-top: 11em;
+		margin-top: 6em;
 		font-size: 15px;
 		height: 23em;
 	}
@@ -462,7 +482,7 @@ body{
 		height: 35em;
 	}
 	.carousel-information{
-		margin-top: 11em;
+		margin-top: 6em;
 		height: 23em;
 	}
 	#carousel-informationFive{
@@ -484,7 +504,7 @@ body{
 		height: 35em;
 	}
 	.carousel-information{
-		margin-top: 11em;
+		margin-top: 6em;
 		height: 23em;
 	}
 	#carousel-informationFive{
