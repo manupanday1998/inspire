@@ -393,7 +393,7 @@ body{
 		left: 38%;
 	}
 	#carousel-example-generic{
-		height: 25em;
+		height: 20em;
 
 	}	
 	.carousel-information{
@@ -431,6 +431,13 @@ body{
 	#slideShowDiv3{
 		top: 11%;
 	}
+	#imglogo{
+		height:2em;
+		weigth:6em;
+		margin-top: .3em;
+		margin-left: 1em;
+	}
+
 }
 @media (min-width: 600px) and (max-width: 768px) {
 	.iconography{
@@ -531,12 +538,12 @@ body{
 	}
 	.carousel-information{
 		margin-top: 6em;
-		left:15em;
+		left:7em;
 		height: 23em;
 	}
 	#carousel-informationFive{
 		margin-top: 3em;
-		left: 20em;
+		left: 12em;
 		top: 0em;
 	}
 	#carousel-informationTwo{
