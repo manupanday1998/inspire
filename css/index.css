@@ -223,9 +223,12 @@ body{
 	padding-top: 3%;
 }
 .flipHeaders{
-	font-size: 1.5em;
-	margin-top: 9.5em;
-	color: 	#1f2022;;
+
+	font-size: 2.5em;
+	font-weight: 300;
+	margin-top: 4em;
+	color: 	#f7f7f7;
+
 }
 .button-div{
 	padding-left: 4em;
