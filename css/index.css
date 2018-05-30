@@ -94,10 +94,11 @@ body{
 	/*position: relative;*/
 	/*height: 10em;*/
 	/*padding: 1.5em 0 1.5em 0;*//* was not commented for the previous version*/
-	font-size: 1.5em;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+	font-size: 2.2em;
+	font-weight: bold;
 	font-family: 'Lora', serif;
-	background-color: #bac1b8;}
+	background-color: white;
+}
 
 #slideshow > div {
 	/*position: absolute;*/
@@ -114,17 +115,17 @@ body{
 }
 #slideShowDiv1{
 	position: absolute;
-	top: 35%;
+	top: 38%;
 	margin-top: -15px;
 }
 #slideShowDiv2{
 	position: absolute;
-	top: 32%;
+	top: 35%;
 	margin-top: -15px;
 }
 #slideShowDiv3{
 	position: absolute;
-	top: 18%;
+	top: 33%;
 	margin-top: -15px;
 }
 .carousel-information{
@@ -427,7 +428,8 @@ body{
 		width: 140px;
 	}
 	#slideshow{
-		height: 8em;
+		height: 12em;
+		font-size: 1.8em;
 	}
 	#slideShowDiv1{
 		top: 38%;
@@ -475,7 +477,14 @@ body{
 		width: 173px;
 	}
 	#slideshow{
-		height: 6em;
+		height: 10em;
+		font-size: 1.9em;
+	}
+	#slideShowDiv3{
+		top: 25%;
+	}
+	#slideShowDiv2{
+		top: 30%;
 	}
 	#imglogo{
 		height:2em;
@@ -498,7 +507,6 @@ body{
 	}
 	#carousel-informationFive{
 		margin-top: 5em;
-
 		height: 48em;
 	}
 	.imageTestimonials, #firstTestimonial, #secondTestimonial, #thirdTestimonial{
@@ -506,7 +514,10 @@ body{
 		width: 187px;
 	}
 	#slideshow{
-		height: 6em;
+		height: 10em;
+	}
+	#slideShowDiv3{
+		top: 27%;
 	}
 }
 @media (min-width: 992px) and (max-width: 1200px) { 
@@ -533,7 +544,7 @@ body{
 		width: 243px;
 	}
 	#slideshow{
-		height: 6em;
+		height: 10em;
 	}
 }
 @media (min-width: 1200px){
@@ -565,6 +576,6 @@ body{
 		width: 293px;
 	}
 	#slideshow{
-		height: 5em;
+		height: 10em;
 	}
 }
