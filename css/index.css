@@ -39,8 +39,11 @@ body{
 .carousel-information{
 	color: black;
 }
+
 #carousel-informationOne, #carousel-informationTwo,#carousel-informationThree,#carousel-informationFour,#carousel-informationFive
-{}
+{
+	color: white;
+}
 
 /* ================== particle js animation =================== */
 #particles-js{
@@ -135,7 +138,7 @@ body{
 	height: 100%;
 	width: 100%;
 	-webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
-	filter: grayscale(50%)  blur(2px) saturate(50%);
+	filter: grayscale(70%)  opacity(.5) saturate(50%);
 }
 /* ===================== the writing animation ===================== */
 
@@ -373,7 +376,8 @@ body{
 	position: relative;
 	.transition(3s ease-in-out left);
 	overflow: hidden !important;
-	height: 40em
+	height: 40em;
+	background-size: 100% !important;
 }
 
 /* ================= Testimonials===================== */
