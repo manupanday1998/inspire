@@ -16,11 +16,11 @@ body{
 	border-image:   linear-gradient(to right, yellow 12%, green 12%, green 29%,darkblue 29%,darkblue 47%,white 47%,white 47%,white 74%,yellow 74%,yellow 88%,brown 88%) 5;
 }
 #navbar li a{
-	color:white;
+	color:#1d242b;
 	font-size: 110%;
 }
 #navbar li a:hover{
-	color: #f7f7f7 !important;
+	color: #0077c0 !important;
 
 }
 .navbar-brand{
@@ -358,13 +358,13 @@ body{
 	font-size: 1.5em;
 }
 .orangeh{
-	border-top-color:#1d242b;
+	border-top-color:#f7f7f7;
 	border-top-style: solid;
 	border-top-width: 4px;
 }
 .orangeh:hover{
 
-    border-top-color : #f7f7f7;
+    border-top-color : #0077c0;
 
 }
 
