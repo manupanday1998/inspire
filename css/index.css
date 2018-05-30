@@ -556,20 +556,20 @@ body{
 	}
 	.carousel-information{
 		margin-top: 6em;
-		left:7em;
+		left:5em;
 		height: 23em;
 	}
 	#carousel-informationOne{
-		left:17em
+		left:11em
 	}
 	#carousel-informationFive{
 		margin-top: 3em;
-		left: 25em;
+		left: 18em;
 		top: 0em;
 	}
 	#carousel-informationTwo{
 		top:4em;
-		left: 20em;
+		left: 18em;
 	}
 	.imageTestimonials, #firstTestimonial, #secondTestimonial, #thirdTestimonial{
 		height: 400px;
