@@ -541,9 +541,12 @@ body{
 		left:7em;
 		height: 23em;
 	}
+	#carousel-informationOne{
+		left:17em
+	}
 	#carousel-informationFive{
 		margin-top: 3em;
-		left: 12em;
+		left: 25em;
 		top: 0em;
 	}
 	#carousel-informationTwo{
