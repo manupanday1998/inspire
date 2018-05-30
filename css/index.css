@@ -91,10 +91,10 @@ body{
 	/*position: relative;*/
 	/*height: 10em;*/
 	/*padding: 1.5em 0 1.5em 0;*//* was not commented for the previous version*/
-	font-size: 1.5em;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+	font-size: 2.2em;
 	font-family: 'Lora', serif;
-	background-color: #bac1b8;}
+	background-color: white;
+}
 
 #slideshow > div {
 	/*position: absolute;*/
@@ -111,17 +111,17 @@ body{
 }
 #slideShowDiv1{
 	position: absolute;
-	top: 35%;
+	top: 38%;
 	margin-top: -15px;
 }
 #slideShowDiv2{
 	position: absolute;
-	top: 32%;
+	top: 35%;
 	margin-top: -15px;
 }
 #slideShowDiv3{
 	position: absolute;
-	top: 18%;
+	top: 35%;
 	margin-top: -15px;
 }
 .carousel-information{
@@ -561,6 +561,6 @@ body{
 		width: 293px;
 	}
 	#slideshow{
-		height: 5em;
+		height: 10em;
 	}
 }
