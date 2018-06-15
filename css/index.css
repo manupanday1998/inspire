@@ -12,8 +12,8 @@ body{
 	border-radius: 0;
 	margin-bottom: 0px;
 	border-bottom-width: 10px;
-	border-bottom-style: solid;
-	border-image:   linear-gradient(to right, yellow 12%, green 12%, green 29%,darkblue 29%,darkblue 47%,white 47%,white 47%,white 74%,yellow 74%,yellow 88%,brown 88%) 5;
+	border-bottom: solid #58C6D5;
+	/*border-image:   linear-gradient(to right, yellow 12%, green 12%, green 29%,darkblue 29%,darkblue 47%,white 47%,white 47%,white 74%,yellow 74%,yellow 88%,brown 88%) 5;*/
 }
 #navbar li a{
 	color:#1d242b;
@@ -27,9 +27,9 @@ body{
 	padding: 0px;
 }
 #imglogo{
-	height:3em;
-	weigth:9em;
-	margin-top: .3em;
+	height:2.5em;
+	width:7em;
+	margin-top: .8em;
 }
 /* ================== images slideshow ==================*/
 
@@ -50,7 +50,7 @@ body{
 	position: relative;
 	float: center;
 	width: 100%;
-	height: 48em;
+	height: 24em;
 	background-color: #f7f7f7;
 	/*padding-top: 5em;
 	padding-bottom: 5em;*/
@@ -120,12 +120,12 @@ body{
 }
 #slideShowDiv2{
 	position: absolute;
-	top: 35%;
+	top: 23%;
 	margin-top: -15px;
 }
 #slideShowDiv3{
 	position: absolute;
-	top: 33%;
+	top: 20%;
 	margin-top: -15px;
 }
 .carousel-information{
@@ -269,7 +269,8 @@ body{
 	border-radius: 0px;
 	font-weight: bold;
 	border: solid black;
-	background-color: #f7f7f7;
+	background-color: #64B5F6 !important;
+	margin-top: 0.5em;
 }
 
 .paragraphsWhoTeam{
@@ -300,16 +301,18 @@ body{
 }*/
 #containerWhoTeam{
 	padding-top: 3em;
-	padding-bottom: 5em;	
+	padding-bottom: 5em;
+	padding-left: 0;
+	padding-right: 0;
 }
 #containerWhoTeam>div{
 	padding-top: 3em;
-	padding-bottom: 3em;
+	padding-bottom: 0em;
 }
 .headings{
 	font-family: 'roboto';
-	font-size: 4em;
-	color: #1d242b;
+	font-size: 2.8em;
+	color: #58C6D5;
 	font-weight: 300;
 	transition: font-size 2s;
 }
@@ -385,9 +388,12 @@ body{
 	top: 0px;
 	display: none;
 	color: white;
-	background-color: rgba(0,0,0,.65);
+	background-color: rgba(0,0,0,0.4);
+	padding: 1em;
 }
-
+#firstTestimonial p, #secondTestimonial p, #thirdTestimonial p{
+	font-size: 1.2em;
+}
 /* ===================== media queries ======================= */
 
 .iconography{
@@ -420,25 +426,25 @@ body{
 		
 	}
 	.imageTestimonials, #firstTestimonial, #secondTestimonial, #thirdTestimonial{
-		height: 280px;
+		height: 220px;
 		width: 140px;
 	}
 	#slideshow{
-		height: 12em;
-		font-size: 1.7em;
+		height: 6em;
+		font-size: 1.3em;
 	}
 	#slideShowDiv1{
-		top: 38%;
+		top: 19%;
 	}
 	#slideShowDiv2{
-		top: 27%;
+		top: 13%;
 	}
 	#slideShowDiv3{
-		top: 11%;
+		top: 5%;
 	}
 	#imglogo{
 		height:2em;
-		weigth:6em;
+		width:6em;
 		margin-top: .3em;
 		margin-left: 1em;
 	}
@@ -469,22 +475,22 @@ body{
 		top: 2em;
 	}
 	.imageTestimonials, #firstTestimonial, #secondTestimonial, #thirdTestimonial{
-		height: 300px;
-		width: 173px;
+		height: 380px;
+		width: 180px;
 	}
 	#slideshow{
-		height: 10em;
-		font-size: 1.9em;
+		height: 5em;
+		font-size: 1.3em;
 	}
 	#slideShowDiv3{
-		top: 25%;
+		top: 12%;
 	}
 	#slideShowDiv2{
-		top: 30%;
+		top: 15%;
 	}
 	#imglogo{
 		height:2em;
-		weigth:6em;
+		width:6em;
 		margin-top: .3em;
 		margin-left: 1em;
 	}
@@ -506,14 +512,14 @@ body{
 		height: 48em;
 	}
 	.imageTestimonials, #firstTestimonial, #secondTestimonial, #thirdTestimonial{
-		height: 350px;
-		width: 187px;
+		height:530px;
+		width: 80% !important;
 	}
 	#slideshow{
-		height: 10em;
+		height: 5em;
 	}
 	#slideShowDiv3{
-		top: 27%;
+		top: 15%;
 	}
 }
 @media (min-width: 992px) and (max-width: 1200px) { 
@@ -540,11 +546,11 @@ body{
 		left:10em;
 	}
 	.imageTestimonials, #firstTestimonial, #secondTestimonial, #thirdTestimonial{
-		height: 350px;
-		width: 243px;
+		height: 420px;
+		width: 90% !important;
 	}
 	#slideshow{
-		height: 10em;
+		height: 5em;
 	}
 }
 @media (min-width: 1200px){
@@ -580,10 +586,10 @@ body{
 		top: 3.5em;
 	}
 	.imageTestimonials, #firstTestimonial, #secondTestimonial, #thirdTestimonial{
-		height: 400px;
-		width: 293px;
+		height: 380px;
+		width: 90% !important;
 	}
 	#slideshow{
-		height: 10em;
+		height: 5em;
 	}
 }
