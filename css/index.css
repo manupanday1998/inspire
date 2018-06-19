@@ -403,7 +403,7 @@ body{
 	.iconography{
 		left: 38%;
 	}
-	#carousel-example-generic{
+	#carousel-example-generic ,#carousel-example-generi{
 		height: 20em;
 
 	}	
@@ -454,7 +454,7 @@ body{
 	.iconography{
 		left: 43%;
 	}
-	#carousel-example-generic{
+		#carousel-example-generic ,#carousel-example-generi  {
 		height: 25em;
 
 	}
@@ -499,7 +499,7 @@ body{
 	.iconography{
 		left: 44%;
 	}
-	#carousel-example-generic{
+	#carousel-example-generic ,#carousel-example-generi{
 		height: 35em;
 	}
 	.carousel-information{
@@ -526,7 +526,7 @@ body{
 	.iconography{
 		left: 40%;
 	}
-	#carousel-example-generic{
+	#carousel-example-generic ,#carousel-example-generi{
 		height: 35em;
 	}
 	.carousel-information{
@@ -557,7 +557,7 @@ body{
 	.iconography{
 		left: 43%;
 	}
-	#carousel-example-generic{
+	#carousel-example-generic ,#carousel-example-generi{
 		height: 35em;
 	}
 	.carousel-information{
