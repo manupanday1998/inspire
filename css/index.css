@@ -27,9 +27,9 @@ body{
 	padding: 0px;
 }
 #imglogo{
-	height:2.5em;
-	width:7em;
-	margin-top: .8em;
+	height:1.8em;
+	width:5em;
+	margin-top: 1em;
 }
 /* ================== images slideshow ==================*/
 
@@ -204,8 +204,13 @@ body{
 }
 .flipBackParagraphs{
 	font-size: 1.1em;
+    text-align: left;
 }
-
+.paragraphsTestimonial{
+    padding: 2em;
+    padding-right: 7em;
+    font-size: 1.4em;
+}
 .BTbox{
 	width: 400px ;
 	height: 250px;
