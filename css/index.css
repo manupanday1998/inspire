@@ -27,8 +27,8 @@ body{
 	padding: 0px;
 }
 #imglogo{
-	height:1.8em;
-	width:5em;
+	height:2.2em;
+	width:7em;
 	margin-top: 1em;
 }
 /* ================== images slideshow ==================*/
@@ -94,10 +94,11 @@ body{
 	/*position: relative;*/
 	/*height: 10em;*/
 	/*padding: 1.5em 0 1.5em 0;*//* was not commented for the previous version*/
-	font-size: 2.2em;
+	font-size: 2em;
 	font-weight: bold;
 	font-family: 'Lora', serif;
 	background-color: white;
+	color:#000066
 }
 
 #slideshow > div {
@@ -115,7 +116,7 @@ body{
 }
 #slideShowDiv1{
 	position: absolute;
-	top: 38%;
+	top: 30%;
 	margin-top: -15px;
 }
 #slideShowDiv2{
@@ -209,6 +210,7 @@ body{
 .paragraphsTestimonial{
     padding: 1.4em;
     padding-right: 7em;
+	padding-left: 0em;
     font-size: 1.2em;
 }
 .BTbox{
@@ -341,8 +343,8 @@ input ,textarea{
     padding: .5em;
 }
 #containerWhoTeam{
-	padding-top: 3em;
-	padding-bottom: 5em;
+	padding-top: 0em;
+	padding-bottom: 2em;
 	padding-left: 0;
 	padding-right: 0;
 }
@@ -358,11 +360,9 @@ input ,textarea{
 	transition: font-size 2s;
 }
 #WAWheading{
-	border-bottom-style: solid;
-	border-bottom-width: 0em;
-	border-color: #0077c0;
+
 	font-size: 2.5em;
-	transition: font-size 2s, border-bottom-width 2s;
+
 }
 #OTheading{
 	border-bottom-style: solid;
