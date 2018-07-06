@@ -5,6 +5,7 @@
 }
 body{
   background-color: #fafafa;
+  padding-top: 75px;
 }
 /* ============= navbar ================== */
 #navbar{
@@ -13,6 +14,7 @@ body{
 	margin-bottom: 0px;
 	border-bottom-width: 10px;
 	border-bottom: solid #58C6D5;
+	background-color: rgba(255, 255, 255, 0.7);
 	/*border-image:   linear-gradient(to right, yellow 12%, green 12%, green 29%,darkblue 29%,darkblue 47%,white 47%,white 47%,white 74%,yellow 74%,yellow 88%,brown 88%) 5;*/
 }
 #navbar li a{
@@ -276,23 +278,8 @@ body{
 	padding-left: 2em;
 	padding-right: 2em;
 	margin-bottom: 0px;
-
 }
-.container-fluid{
 
-	background-color: #1f2022;
-}*/
-
-
-/* ===================== ====================== */
-
-.container-fluid{
-	background-color: white;
-	color: black;
-    margin-left: 1em;
-    margin-right: 1em;
-
-}
 /* ===================== Who we are and Our Teams ================== */
 .btn-whoTeam{
 
@@ -484,6 +471,7 @@ input ,textarea{
 	#slideshow{
 		height: 5em;
 		font-size: 1.3em;
+
 	}
 	#slideShowDiv1{
 		top: 10%;

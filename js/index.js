@@ -49,3 +49,23 @@ function hideOfTestimonial(){
 	$("#secondTestimonial").css("display", "none");
 	$("#thirdTestimonial").css("display", "none");
 }
+
+
+// var element = document.getElementById("navbar");
+// var rect = element.getBoundingClientRect();
+// console.log(rect.top);
+
+// var photoState = rect.top;
+// setInterval(
+// 	function(){
+// 		if(photoState){
+// 			$("#navbar").css('background-color', 'rgba(255, 255, 255, 0.7)');
+// 			console.log(rect.top+"if");
+// 		}
+// 		else{
+// 			$("#navbar").css('background-color', 'rgba(255, 255, 255, 1)');
+// 			console.log(rect.top+"else");
+// 		}
+// 	},
+// 	1000
+// );

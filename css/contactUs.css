@@ -1,0 +1,48 @@
+*{
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+
+}
+body{
+  	background-color: #fafafa;
+  	padding-top: 120px;
+}
+
+/* ====== navbar ========*/
+#navbar{
+	padding-left: 0px;
+	border-radius: 0;
+	margin-bottom: 0px;
+	border-bottom-width: 10px;
+	border-bottom: solid #58C6D5;
+	background-color: rgba(255, 255, 255, 0.7);
+	/*border-image:   linear-gradient(to right, yellow 12%, green 12%, green 29%,darkblue 29%,darkblue 47%,white 47%,white 47%,white 74%,yellow 74%,yellow 88%,brown 88%) 5;*/
+}
+#navbar li a{
+	color:#1d242b;
+	font-size: 110%;
+}
+#navbar li a:hover{
+	color: #0077c0 !important;
+
+}
+.navbar-brand{
+	padding: 0px;
+}
+#imglogo{
+	height:2.2em;
+	width:7em;
+	margin-top: 1em;
+}
+
+/* ====== form container ========*/
+
+#formContainer{
+	background-color: white;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	box-shadow: 5px 10px 18px #888888;
+}
+
+/* ====== map =========== */
+.mapouter{text-align:right;height:500px;width:100%}.gmap_canvas {overflow:hidden;background:none!important;/*height:1080px;width:1080px;*/}
