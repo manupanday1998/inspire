@@ -412,7 +412,7 @@ input ,textarea{
 	position: relative;
 	.transition(3s ease-in-out left);
 	overflow: hidden !important;
-	height: 40em;
+ 	
 	background-size: 100% !important;
 }
 
