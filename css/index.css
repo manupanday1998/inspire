@@ -3,6 +3,18 @@
 	position: relative;
 
 }
+.left{
+    padding-left: 0%!important;
+    margin-left: 0px !important ;
+    position: absolute;
+    left: -3.5em;
+
+}
+.carousel-indicators {
+    margin: 0px;
+    height: 0px;
+}
+
 body{
   background-color: #fafafa;
   padding-top: 75px;
@@ -412,7 +424,7 @@ input ,textarea{
 	position: relative;
 	.transition(3s ease-in-out left);
 	overflow: hidden !important;
- 	
+
 	background-size: 100% !important;
 }
 
